@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AWS SQS Test Suite]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="com.testingfoo.tests.standardQueue.SendBasicMessage">
+        <methods>
+          <include name="test"/>
+          <include name="setupElasticMQ"/>
+          <include name="tearDownMethod"/>
+          <include name="setupMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendBasicMessage -->
+      <class name="com.testingfoo.tests.standardQueue.SendInvalidLargeMessages">
+        <methods>
+          <include name="setupElasticMQ"/>
+          <include name="tearDownMethod"/>
+          <include name="suiteSetup"/>
+          <include name="testSendDifferentMessagesToTheQueue"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendInvalidLargeMessages -->
+      <class name="com.testingfoo.tests.standardQueue.SendXMLMessages">
+        <methods>
+          <include name="setupElasticMQ"/>
+          <include name="setupMethod"/>
+          <include name="testSendXMLMessagesToTheQueue"/>
+          <include name="suiteSetup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendXMLMessages -->
+      <class name="com.testingfoo.tests.standardQueue.SendJsonMessages">
+        <methods>
+          <include name="testSendJSONMessagesToTheQueue"/>
+          <include name="setupElasticMQ"/>
+          <include name="setupMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendJsonMessages -->
+      <class name="com.testingfoo.tests.standardQueue.CreateQueueWithInvalidQueueNames">
+        <methods>
+          <include name="setupElasticMQ"/>
+          <include name="tearDownMethod"/>
+          <include name="testCreateQueue"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.CreateQueueWithInvalidQueueNames -->
+      <class name="com.testingfoo.tests.standardQueue.CreateQueueWithSpecifiedVisibilityTimeout">
+        <methods>
+          <include name="testCreateQueuewithVisibilityTimeOut"/>
+          <include name="setupElasticMQ"/>
+          <include name="tearDownMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.CreateQueueWithSpecifiedVisibilityTimeout -->
+      <class name="com.testingfoo.tests.standardQueue.SendMessageWithDelayMessages">
+        <methods>
+          <include name="setupElasticMQ"/>
+          <include name="tearDownMethod"/>
+          <include name="testSendJSONMessagesToTheQueue"/>
+          <include name="setupMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendMessageWithDelayMessages -->
+      <class name="com.testingfoo.tests.standardQueue.SendNullMessage">
+        <methods>
+          <include name="setupElasticMQ"/>
+          <include name="tearDownMethod"/>
+          <include name="testSendDifferentMessagesToTheQueue"/>
+          <include name="setupMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendNullMessage -->
+      <class name="com.testingfoo.tests.standardQueue.SendDifferentMessages">
+        <methods>
+          <include name="testSendDifferentMessagesToTheQueue"/>
+          <include name="setupMethod"/>
+          <include name="setupElasticMQ"/>
+          <include name="tearDownMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendDifferentMessages -->
+      <class name="com.testingfoo.tests.standardQueue.SendBatchMessages">
+        <methods>
+          <include name="setupElasticMQ"/>
+          <include name="testSendBatchMessagesToTheQueue"/>
+          <include name="tearDownMethod"/>
+          <include name="setupMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.testingfoo.tests.standardQueue.SendBatchMessages -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [AWS SQS Test Suite] -->

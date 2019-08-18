@@ -1,0 +1,16 @@
+com/testingfoo/tests/standardQueue/SendAndRecieveDifferentMessages.class
+com/testingfoo/tests/standardQueue/CreateQueueWithInvalidQueueNames.class
+com/testingfoo/tests/standardQueue/CreateBlankNameQueueTest.class
+com/testingfoo/tests/standardQueue/SendAndRecieveMessageWithDelay.class
+com/testingfoo/tests/standardQueue/SendAndRecieveXMLMessages.class
+com/testingfoo/tests/standardQueue/SendMessageWithDifferentMessageAttribute.class
+com/testingfoo/elasticmq/BaseTest.class
+com/testingfoo/tests/standardQueue/SendInvalidNullMessage.class
+com/testingfoo/tests/standardQueue/SendAndRecieveBatchMessages.class
+com/testingfoo/tests/standardQueue/SendAndRecieveBasicMessage.class
+com/testingfoo/elasticmq/SQSQueue.class
+com/testingfoo/tests/standardQueue/CreateQueueTest.class
+com/testingfoo/tests/standardQueue/CreateQueueWithSpecifiedVisibilityTimeout.class
+com/testingfoo/tests/standardQueue/SendAndRecieveJsonMessages.class
+com/testingfoo/tests/standardQueue/SendInvalidLargeMessage.class
+com/testingfoo/utils/CommonUtils.class

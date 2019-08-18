@@ -1,0 +1,16 @@
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendInvalidNullMessage.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendAndRecieveDifferentMessages.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendAndRecieveXMLMessages.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/CreateQueueWithInvalidQueueNames.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/CreateBlankNameQueueTest.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendAndRecieveJsonMessages.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendMessageWithDifferentMessageAttribute.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/elasticmq/BaseTest.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendAndRecieveBasicMessage.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/utils/CommonUtils.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/elasticmq/SQSQueue.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendInvalidLargeMessage.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendAndRecieveMessageWithDelay.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/CreateQueueTest.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/SendAndRecieveBatchMessages.java
+/Users/udayseshadri/Documents/UDRepo/elasticmq/src/main/java/com/testingfoo/tests/standardQueue/CreateQueueWithSpecifiedVisibilityTimeout.java
